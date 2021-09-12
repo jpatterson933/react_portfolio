@@ -1,7 +1,7 @@
 import React from "react";
+import './index.css';
 import { ListItem } from '../List/ListItem';
 import { sliderSettings, languages } from "./SliderDetails";
-
 import Slider from 'react-slick';
 
 export const LanguageSlider = () => {
@@ -10,11 +10,14 @@ export const LanguageSlider = () => {
             <ListItem
                 className="list-group-item list-group-item-action list-group-item-primary"
                 name={name}
+                key={name}
+                id="lang"
             />
         )
     })
     return (
-        <div id="skills">
+        <div id="language-list">
+            <h1>Known Languages</h1>
             <Slider {...sliderSettings}>
                 {languageName}
             </Slider>
