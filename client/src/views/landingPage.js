@@ -1,33 +1,36 @@
 import React from 'react';
-import { ButtonLink } from '../components/Button/ButtonLink';
 import { ListItem } from '../components/List/ListItem';
+import { Button } from '../components/Button/Button';
+import { Link } from '../components/Link';
 
 export const LandingPage = () => {
     return (
         <div>
             <nav className="navbar navbar-dark bg-dark" id="nav">
                 <div className="button-flex">
-                    <button className="btn btn-dark row-3"><a href="#projects-id-link">Check Out My Applications!</a></button>
+                    <Button className="btn btn-dark row-3"><Link url="#projects-id-link" linkTitle="Check Out My Applications" /></Button>
                 </div>
             </nav>
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
                     <h1 className="display-4" id="name">Jeffery W. Patterson</h1>
-                    <a href="https://www.instagram.com/i_shred/" target="_blank" rel="noopener noreferrer">
-                        <img className="profile-photo col-sm-3" src="../../assets/profile_photo.jpg" alt="Jeffery Patterson"></img>
-                    </a>
-                    <ButtonLink link="https://github.com/jpatterson933" name="Github" />
-                    <ButtonLink link="https://www.linkedin.com/in/jefferywpatterson/" name="LinkedIn" />
-                    <button className="btn btn-dark col-md-3 col-sm-12"><a href="assets/media/my-resume-6.7.pdf" download>Resume</a></button>
+                    <Link
+                        url="https://www.instagram.com/i_shred/"
+                        newWindow="_blank"
+                        linkTitle={<img className="profile-photo col-sm-3" src="../../assets/profile_photo.jpg" alt="Jeffery Patterson"></img>}
+                    />
+                    <Button className="btn btn-dark col-md-3 col-sm-12"><Link url="https://github.com/jpatterson933" linkTitle="Github" newWindow="_blank" /></Button>
+                    <Button className="btn btn-dark col-md-3 col-sm-12"><Link url="https://www.linkedin.com/in/jefferywpatterson/" linkTitle="LinkedIn" newWindow="_blank" /></Button>
+                    <Button className="btn btn-dark col-md-3 col-sm-12"><Link url="assets/media/my-resume-6.7.pdf" download linkTitle="Resume"></Link></Button>
                     <ul className="col-sm-3 col-xs-12 contact-info">
-                        <ListItem><a href="mailto: jpatterson933@ucla.edu?subject=I just viewed your portfolio!">jpatterson933@ucla.edu</a></ListItem>
+                        <ListItem name={<Link url="mailto: jpatterson933@ucla.edu?subject=I want to hire you!" linkTitle="jpatterson933@ucla.edu" />}></ListItem>
                         <ListItem id="cell" name="(951) 581-6263" />
                     </ul>
                     <div className="list-group" id="skills">
                         <ListItem
                             className="list-group-item list-group-item-action list-group-item-primary"
                             name="Known Languages" />
-                        <ListItem 
+                        <ListItem
                             className="list-group-item list-group-item-action list-group-item-primary"
                             name="HTML" />
                         <ListItem
@@ -76,7 +79,7 @@ export const LandingPage = () => {
                 <section>
                     <aside>
                         <div>
-                            <h1>A bit about me...</h1>
+                            <h3>A bit about me...</h3>
                             <p> I love to code.
                             </p>
                             <h1>fin</h1>
@@ -95,21 +98,31 @@ export const LandingPage = () => {
                         </div>
                         <ul className="list-group list-group-flush cards-list">
                             <ListItem
-                                className="list-group-item" 
+                                className="list-group-item"
                                 name="Find any Game in the world"
                             />
                             <ListItem
-                                className="list-group-item" 
+                                className="list-group-item"
                                 name="Find Game Completion Time"
                             />
                             <ListItem
-                                className="list-group-item" 
+                                className="list-group-item"
                                 name="Beat that game"
                             />
                         </ul>
                         <div className="col">
-                            <a href="https://github.com/anthonyapicella/XP-pedia" target="_blank" rel="noopener noreferrer" className="row xp-link">GitHub Repository</a>
-                            <a href="https://anthonyapicella.github.io/XP-pedia/" target="_blank" rel="noopener noreferrer" className="row xp-link">Web Application</a>
+                            <Link
+                                className="row xp-link"
+                                url="https://github.com/anthonyapicella/XP-pedia"
+                                linkTitle="Github Repository"
+                                newWindow="_blank"
+                            />
+                            <Link
+                                className="row xp-link"
+                                url="https://anthonyapicella.github.io/XP-pedia/"
+                                linkTitle="Live Web Application"
+                                newWindow="_blank"
+                            />
                         </div>
                     </div>
                     <div className="card">
@@ -119,13 +132,32 @@ export const LandingPage = () => {
                                 and view the weather at any time or find a new city.</p>
                         </div>
                         <ul className="list-group list-group-flush cards-list">
-                            <li className="list-group-item">Weather Reports</li>
-                            <li className="list-group-item">5 Day forecast</li>
-                            <li className="list-group-item">Save favorite City</li>
+                            <ListItem
+                                className="list-group-item"
+                                name="Weather Reports"
+                            />
+                            <ListItem
+                                className="list-group-item"
+                                name="5 Day forecast"
+                            />
+                            <ListItem
+                                className="list-group-item"
+                                name="Save favorite City"
+                            />
                         </ul>
                         <div className="col card-body">
-                            <a href="https://github.com/jpatterson933/weather-dashboard" target="_blank" rel="noopener noreferrer" className="row xp-link">Github Repository</a>
-                            <a href="https://jpatterson933.github.io/weather-dashboard/" target="_blank" rel="noopener noreferrer" className="row xp-link">Web Application</a>
+                            <Link
+                                className="row xp-link"
+                                url="https://github.com/jpatterson933/weather-dashboard"
+                                linkTitle="Github Repository"
+                                newWindow="_blank"
+                            />
+                            <Link
+                                className="row xp-link"
+                                url="https://jpatterson933.github.io/weather-dashboard/"
+                                linkTitle="Web Application"
+                                newWindow="_blank"
+                            />
                         </div>
                     </div>
                     <div className="card">
@@ -135,13 +167,32 @@ export const LandingPage = () => {
                             </p>
                         </div>
                         <ul className="list-group list-group-flush cards-list">
-                            <li className="list-group-item">Unique Profile</li>
-                            <li className="list-group-item">Encrypted Information</li>
-                            <li className="list-group-item">Very Smooth Design</li>
+                            <ListItem
+                                className="list-group-item"
+                                name="Unique Profile"
+                            />
+                            <ListItem
+                                className="list-group-item"
+                                name="Encrypted Information"
+                            />
+                            <ListItem
+                                className="list-group-item"
+                                name="Very Smooth Design"
+                            />
                         </ul>
                         <div className="col card-body">
-                            <a href="https://github.com/jpatterson933/tech-blog-version-1.0" target="_blank" rel="noopener noreferrer" className="row xp-link">Github Repository</a>
-                            <a href="https://fast-lowlands-84430.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="row xp-link">Web Application</a>
+                            <Link
+                                className="row xp-link"
+                                url="https://github.com/jpatterson933/tech-blog-version-1.0"
+                                linkTitle="Github Repository"
+                                newWindow="_blank"
+                            />
+                            <Link
+                                className="row xp-link"
+                                url="https://fast-lowlands-84430.herokuapp.com/"
+                                linkTitle="Web Application"
+                                newWindow="_blank"
+                            />
                         </div>
                     </div>
                 </div>
