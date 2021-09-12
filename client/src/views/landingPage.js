@@ -1,4 +1,6 @@
 import React from 'react';
+import { LanguageSlider } from '../components/LanguageSlider';
+
 import { ListItem } from '../components/List/ListItem';
 import { Button } from '../components/Button/Button';
 import { Link } from '../components/Link';
@@ -7,74 +9,26 @@ export const LandingPage = () => {
     return (
         <div>
             <nav className="navbar navbar-dark bg-dark" id="nav">
-                <div className="button-flex">
-                    <Button className="btn btn-dark row-3"><Link url="#projects-id-link" linkTitle="Check Out My Applications" /></Button>
-                </div>
+                <Button className="btn btn-dark row-3 button-flex"><Link url="#projects-id-link" linktitle="Check Out My Applications" /></Button>
             </nav>
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
                     <h1 className="display-4" id="name">Jeffery W. Patterson</h1>
                     <Link
                         url="https://www.instagram.com/i_shred/"
-                        newWindow="_blank"
-                        linkTitle={<img className="profile-photo col-sm-3" src="../../assets/profile_photo.jpg" alt="Jeffery Patterson"></img>}
+                        newwindow="_blank"
+                        linktitle={<img className="profile-photo col-sm-3" src="../../assets/profile_photo.jpg" alt="Jeffery Patterson"></img>}
                     />
-                    <Button className="btn btn-dark col-md-3 col-sm-12"><Link url="https://github.com/jpatterson933" linkTitle="Github" newWindow="_blank" /></Button>
-                    <Button className="btn btn-dark col-md-3 col-sm-12"><Link url="https://www.linkedin.com/in/jefferywpatterson/" linkTitle="LinkedIn" newWindow="_blank" /></Button>
-                    <Button className="btn btn-dark col-md-3 col-sm-12"><Link url="assets/media/my-resume-6.7.pdf" download linkTitle="Resume"></Link></Button>
+                    <Button className="btn btn-dark col-md-3 col-sm-12"><Link url="https://github.com/jpatterson933" linktitle="Github" newwindow="_blank" /></Button>
+                    <Button className="btn btn-dark col-md-3 col-sm-12"><Link url="https://www.linkedin.com/in/jefferywpatterson/" linktitle="LinkedIn" newwindow="_blank" /></Button>
+                    <Button className="btn btn-dark col-md-3 col-sm-12"><Link url="assets/media/my-resume-6.7.pdf" download linktitle="Resume"></Link></Button>
                     <ul className="col-sm-3 col-xs-12 contact-info">
-                        <ListItem name={<Link url="mailto: jpatterson933@ucla.edu?subject=I want to hire you!" linkTitle="jpatterson933@ucla.edu" />}></ListItem>
+                        <ListItem name={<Link url="mailto: jpatterson933@ucla.edu?subject=I want to hire you!" linktitle="jpatterson933@ucla.edu" />}></ListItem>
                         <ListItem id="cell" name="(951) 581-6263" />
                     </ul>
-                    <div className="list-group" id="skills">
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="Known Languages" />
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="HTML" />
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="CSS" />
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="Javascript" />
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="Jquery" />
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="Bootstrap" />
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="Node.js" />
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="Sequelize" />
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="MySQL" />
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="GraphQL" />
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="Apollo" />
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="Mongoose" />
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="Handlebars" />
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="EJS" />
-                        <ListItem
-                            className="list-group-item list-group-item-action list-group-item-primary"
-                            name="React" />
-                    </div>
                 </div>
             </div>
+            <LanguageSlider />
             <main className="about-wrapper">
                 <section>
                     <aside>
@@ -114,14 +68,14 @@ export const LandingPage = () => {
                             <Link
                                 className="row xp-link"
                                 url="https://github.com/anthonyapicella/XP-pedia"
-                                linkTitle="Github Repository"
-                                newWindow="_blank"
+                                linktitle="Github Repository"
+                                newwindow="_blank"
                             />
                             <Link
                                 className="row xp-link"
                                 url="https://anthonyapicella.github.io/XP-pedia/"
-                                linkTitle="Live Web Application"
-                                newWindow="_blank"
+                                linktitle="Live Web Application"
+                                newwindow="_blank"
                             />
                         </div>
                     </div>
@@ -149,14 +103,14 @@ export const LandingPage = () => {
                             <Link
                                 className="row xp-link"
                                 url="https://github.com/jpatterson933/weather-dashboard"
-                                linkTitle="Github Repository"
-                                newWindow="_blank"
+                                linktitle="Github Repository"
+                                newwindow="_blank"
                             />
                             <Link
                                 className="row xp-link"
                                 url="https://jpatterson933.github.io/weather-dashboard/"
-                                linkTitle="Web Application"
-                                newWindow="_blank"
+                                linktitle="Web Application"
+                                newwindow="_blank"
                             />
                         </div>
                     </div>
@@ -184,14 +138,14 @@ export const LandingPage = () => {
                             <Link
                                 className="row xp-link"
                                 url="https://github.com/jpatterson933/tech-blog-version-1.0"
-                                linkTitle="Github Repository"
-                                newWindow="_blank"
+                                linktitle="Github Repository"
+                                newwindow="_blank"
                             />
                             <Link
                                 className="row xp-link"
                                 url="https://fast-lowlands-84430.herokuapp.com/"
-                                linkTitle="Web Application"
-                                newWindow="_blank"
+                                linktitle="Web Application"
+                                newwindow="_blank"
                             />
                         </div>
                     </div>
