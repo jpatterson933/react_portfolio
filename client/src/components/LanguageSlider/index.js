@@ -17,7 +17,7 @@ export const LanguageSlider = () => {
     })
     return (
         <div id="language-list">
-            <h1>Known Languages</h1>
+            <h1 id="language-title">Known Languages</h1>
             <Slider {...sliderSettings}>
                 {languageName}
             </Slider>
