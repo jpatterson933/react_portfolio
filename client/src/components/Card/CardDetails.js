@@ -1,4 +1,4 @@
-const Cards = [
+export const CardDetails = [
     {
         name: "Weather Dashboard",
         details: "Find five day forecast for any city in the world. Personalize website by saving city.",
