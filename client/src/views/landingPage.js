@@ -6,19 +6,18 @@ import { Button } from '../components/Button/Button';
 import { Link } from '../components/Link';
 import { Card } from '../components/Card';
 
+
 export const LandingPage = () => {
     return (
         <div>
-            <nav className="navbar navbar-dark bg-dark" id="nav">
-                <Button className="btn btn-dark row-3 button-flex"><Link url="#projects-id-link" linktitle="Check Out My Applications" /></Button>
-            </nav>
+            <nav className="navbar navbar-dark bg-dark" id="nav"></nav>
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
                     <h1 className="display-4" id="name">Jeffery W. Patterson</h1>
                     <Link
                         url="https://www.instagram.com/i_shred/"
                         newwindow="_blank"
-                        linktitle={<img className="profile-photo col-sm-3" src="../../assets/profile_photo.jpg" alt="Jeffery Patterson"></img>}
+                        linktitle={<img className="profile-photo col-sm-3" src="assets/profile_photo.jpg" alt="Jeffery Patterson"></img>}
                     />
                     <Button className="btn btn-dark col-md-3 col-sm-12"><Link url="https://github.com/jpatterson933" linktitle="Github" newwindow="_blank" /></Button>
                     <Button className="btn btn-dark col-md-3 col-sm-12"><Link url="https://www.linkedin.com/in/jefferywpatterson/" linktitle="LinkedIn" newwindow="_blank" /></Button>
