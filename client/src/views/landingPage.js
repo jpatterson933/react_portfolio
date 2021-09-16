@@ -1,11 +1,15 @@
 import React from 'react';
+// Styles
+import './index.css';
+// Assets
 import profilePhoto from '../assets/profile_photo.jpg';
+// Components
 import { LanguageSlider } from '../components/LanguageSlider';
-
 import { ListItem } from '../components/List/ListItem';
 import { Button } from '../components/Button/Button';
 import { Link } from '../components/Link';
 import { Card } from '../components/Card';
+import { LoadingElement } from '../components/Loading';
 
 
 export const LandingPage = () => {
@@ -13,6 +17,8 @@ export const LandingPage = () => {
         <div>
             <nav className="navbar navbar-dark bg-dark" id="nav"></nav>
             <div className="jumbotron jumbotron-fluid">
+                <LoadingElement />
+                <LoadingElement className="box-two"/>
                 <div className="container">
                     <h1 className="display-4" id="name">Jeffery W. Patterson</h1>
                     <Link

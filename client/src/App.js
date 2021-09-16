@@ -1,9 +1,9 @@
-import { LoadingElement } from './components/Loading';
+import React from 'react';
+// Views Pages
 import { LandingPage } from './views/landingPage';
 function App() {
   return (
     <div className="App">
-      <LoadingElement />
       <LandingPage />
 
     </div>
