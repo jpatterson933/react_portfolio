@@ -15,6 +15,13 @@
 
 @media only screen and (max-width: 840px) {
   #language-list {
-    display: none;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #language-title{
+    height: fit-content;
+    padding: 5px;
+    margin: 5px;
   }
 }
