@@ -9,11 +9,18 @@ export const languages = [
     "Sequelize",
     "Passport",
     "MySQL",
+    "MongoDB",
     "GraphQL",
     "Apollo",
     "Mongoose",
     "Handlebars",
     "EJS",
+    "lodash",
+    "nodemon",
+    "dotenv",
+    "express",
+    "express-graphql",
+    "cors"
 ]
 
 export const sliderSettings = {
