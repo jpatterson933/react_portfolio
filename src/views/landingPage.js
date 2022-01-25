@@ -33,7 +33,7 @@ export const LandingPage = () => {
                         <Link url="https://www.linkedin.com/in/jefferywpatterson/" linktitle="LinkedIn" newwindow="_blank" />
                     </Button>
                     <Button className="btn btn-dark col-md-3 col-sm-12">
-                        <Link url="assets/media/my-resume-6.7.pdf" download linktitle="Resume" />
+                        <Link url="https://jpatterson933.github.io/resume/" linktitle="Resume" />
                     </Button>
                     <ul className="col-sm-3 col-xs-12 contact-info">
                         <ListItem name={<Link url="mailto: jpatterson933@ucla.edu?subject=I want to hire you!" id="email" linktitle="jpatterson933@ucla.edu" />}></ListItem>
