@@ -11,6 +11,10 @@
     animation-iteration-count: infinite;
 }
 
+.websites {
+    float: right;
+}
+
 @keyframes spin {
     from {
         transform: rotate(0);

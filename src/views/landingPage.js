@@ -42,6 +42,9 @@ export const LandingPage = () => {
                 </div>
             </div>
             <LanguageSlider />
+            <div className="websites">
+                <h1>Websites</h1>
+            </div>
             <main className="about-wrapper">
                 <h3>I love to code</h3>
                 <h1 className="row justify-content-center" id="projects-id-link">My Applications</h1>
