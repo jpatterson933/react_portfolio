@@ -10,6 +10,7 @@ import { Button } from '../components/Button/Button';
 import { Link } from '../components/Link';
 import { Card } from '../components/Card';
 import { LoadingElement } from '../components/Loading';
+import { Websites } from '../components/Websites';
 
 
 export const LandingPage = () => {
@@ -42,9 +43,7 @@ export const LandingPage = () => {
                 </div>
             </div>
             <LanguageSlider />
-            <div className="websites">
-                <h1>Websites</h1>
-            </div>
+            {/* <Websites /> */}
             <main className="about-wrapper">
                 <h3>I love to code</h3>
                 <h1 className="row justify-content-center" id="projects-id-link">My Applications</h1>

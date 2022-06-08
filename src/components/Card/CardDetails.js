@@ -2,6 +2,14 @@
 
 export const CardDetails = [
     {
+        id: "0",
+        name: "9 to 5 Planner",
+        details: "Plan your day from 9 to 5",
+        summary: ["Quickly Save Notes", "Color Coded time of day", "Delete individual or all notes"],
+        github: "https://github.com/jpatterson933/calender-application",
+        url: "https://jpatterson933.github.io/calender-application/",
+    },
+    {
         id: "1",
         name: "Weather Dashboard",
         details: "Find five day forecast for any city in the world. Personalize website by saving city.",
