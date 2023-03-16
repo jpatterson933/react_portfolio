@@ -4,7 +4,7 @@
     height: 50px;
     background-color: white;
     border-radius: 2px;
-    animation-name: spin;
+    animation-name: turn;
     animation-delay: 2s;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -19,7 +19,7 @@
 
 }
 
-@keyframes spin {
+@keyframes turn {
     from {
         transform: rotate(0);
     }

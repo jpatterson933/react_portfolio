@@ -4,7 +4,7 @@ import './index.css';
 
 export const Websites = (props) => {
 
-    const [showMore, setShowMore] = useState(false);
+    // const [showMore, setShowMore] = useState(false);
 
     const [sites, setSites] = useState(
         {

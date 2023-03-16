@@ -10,7 +10,7 @@ import { Button } from '../components/Button/Button';
 import { Link } from '../components/Link';
 import { Card } from '../components/Card';
 import { LoadingElement } from '../components/Loading';
-import { Websites } from '../components/Websites';
+// import { Websites } from '../components/Websites';
 
 
 export const LandingPage = () => {
@@ -19,11 +19,11 @@ export const LandingPage = () => {
             <nav className="navbar navbar-dark bg-dark" id="nav"></nav>
             <div className="jumbotron jumbotron-fluid">
                 <LoadingElement />
-                <LoadingElement className="box-two"/>
+                <LoadingElement className="box-two" />
                 <div className="container">
                     <h1 className="display-4" id="name">Jeffery W. Patterson</h1>
                     <Link
-                        url="https://www.instagram.com/i_shred/"
+                        url="https://jpatterson933.github.io/resume/"
                         newwindow="_blank"
                         linktitle={<img className="profile-photo col-sm-3" src={profilePhoto} alt="Jeffery Patterson"></img>}
                     />
@@ -34,7 +34,7 @@ export const LandingPage = () => {
                         <Link url="https://www.linkedin.com/in/jefferywpatterson/" linktitle="LinkedIn" newwindow="_blank" />
                     </Button>
                     <Button className="btn btn-dark col-md-3 col-sm-12">
-                        <Link url="https://jpatterson933.github.io/resume/" linktitle="Resume" />
+                        <Link url="https://jpatterson933.github.io/resume/" linktitle="Resume" newwindow="_blank" />
                     </Button>
                     <ul className="col-sm-3 col-xs-12 contact-info">
                         <ListItem name={<Link url="mailto: jpatterson933@ucla.edu?subject=I want to hire you!" id="email" linktitle="jpatterson933@ucla.edu" />}></ListItem>
@@ -46,7 +46,7 @@ export const LandingPage = () => {
             {/* <Websites /> */}
             <main className="about-wrapper">
                 <h3>I love to code</h3>
-                <h1 className="row justify-content-center" id="projects-id-link">My Applications</h1>
+                <h1 className="row justify-content-center" id="projects-id-link">Stuff I've Done</h1>
                 <div className="row">
                     <Card />
                 </div>
