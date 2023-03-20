@@ -1,14 +1,18 @@
 import React from 'react';
+// pre-built components
 import { ListItem } from '../List/ListItem';
 import { Link } from '../Link';
+import { HeaderFive } from '../Headers';
+// details for Card component
 import { CardDetails } from './CardDetails';
-
 export const Card = () => {
+
+    const cardLinkClasses = "row xp-link";
     const cards = CardDetails.map((card) => {
         return (
             <div className="card" key={card.id}>
                 <div className="card-body descrip-holder">
-                    <h5 className="card-title">{card.name}</h5>
+                    <HeaderFive className="card-title">{card.name}</HeaderFive>
                     <p className="card-text">{card.details}</p>
                 </div>
                 <ul className="list-group list-group-flush cards-list">
@@ -23,18 +27,8 @@ export const Card = () => {
                     })}
                 </ul>
                 <div className="col">
-                    <Link
-                        className="row xp-link"
-                        url={card.github}
-                        linktitle="Github Repository"
-                        newwindow="_blank"
-                    />
-                    <Link
-                        className="row xp-link"
-                        url={card.url}
-                        linktitle="Live Web Application"
-                        newwindow="_blank"
-                    />
+                    <Link className={cardLinkClasses} href={card.github}>Github Repository</Link>
+                    <Link className={cardLinkClasses} href={card.url}>Live Web Application</Link>
                 </div>
             </div>
         )
