@@ -2,7 +2,7 @@
 
 export const CardDetails = [
     {
-        id: "10",
+        key: "10",
         name: "Deal Buster",
         details: "A landing page for store chain Deal Buster in Southern California. Currently, the site gets roughly 2000 hits a week",
         summary: ["Made with React", "News Ticker", "Smooth Layout"],
@@ -10,7 +10,7 @@ export const CardDetails = [
         url: "https://dealbuster.online",
     },
     {
-        id: "11",
+        key: "11",
         name: "Weather Dashboard",
         details: "Find five day forecast for any city in the world. Personalize by saving city. The site currently displays all weather information available.",
         summary: ["API Integration", "5 Day Forecast", "Save City"],
@@ -18,7 +18,7 @@ export const CardDetails = [
         url: "https://jpatterson933.github.io/weather-dashboard/",
     },
     {
-        id: "12",
+        key: "12",
         name: "Readme Markdown Generator",
         details: "Generate Markdown files for any project. Created two years ago. No longer updated, but still used.",
         summary: ["Use in terminal", "Pre-formatted", "Pre-Built"],
@@ -26,7 +26,7 @@ export const CardDetails = [
         url: "https://github.com/jpatterson933/readme-generator",
     },
     // {
-    //     id: "13",
+    //     key: "13",
     //     name: "Yewnity",
     //     details: "A place to go and learn about others and events that you may want to get involved with",
     //     summary: ["Live Feed", "Personal Profiles", "Full Stack MVC"],
