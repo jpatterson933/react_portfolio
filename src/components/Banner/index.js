@@ -14,8 +14,7 @@ export const Banner = () => {
             <div className="container">
                 <h1 className="display-4" id="name">Jeffery W. Patterson</h1>
                 <Link
-                    url="https://jpatterson933.github.io/resume/"
-                    newwindow="_blank"
+                    href="https://jpatterson933.github.io/resume/"
                     linktitle={<img className="profile-photo col-sm-3" src={profilePhoto} alt="Jeffery Patterson"></img>}
                 />
                 <Button className="btn btn-dark col-md-3 col-sm-12">
