@@ -1,5 +1,14 @@
 /* non bootstrap classes and ids on the page  */
+/*name styling */
+#name {
+    text-align: center;
+}
+
 
 #email {
     color: black;
+}
+
+#banner-nav{
+   padding-bottom: 1em;
 }

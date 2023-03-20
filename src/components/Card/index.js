@@ -30,9 +30,5 @@ export const Card = () => {
         )
     })
 
-    return (
-        <>
-            {cards}
-        </>
-    )
+    return (<>{cards}</>)
 }

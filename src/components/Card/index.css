@@ -1,3 +1,32 @@
+
+
+/*-----------------------------------------cards styling------------------------------------------*/
 .card {
-    margin-top: 12px;
+    background-color: rgba(179, 213, 255, .5);
+    margin: 12px auto;
+}
+.card-title {
+    text-align: center;
+}
+.cards-list {
+    text-align: center;
+}
+
+.descrip-holder {
+    width: 290px;
+    height: 190px;
+    padding: 1em;
+    text-align: center;
+}
+
+.xp-link, .card-link    {
+    display: block;
+    text-align: center;
+    background-color: rgba(170, 213, 255, .9);
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 21px 0;
+    border-radius: 5px;
+
 }

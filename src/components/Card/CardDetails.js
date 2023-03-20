@@ -4,7 +4,7 @@ export const CardDetails = [
     {
         key: "10",
         name: "Deal Buster",
-        details: "A landing page for store chain Deal Buster in Southern California. Currently, the site gets roughly 2000 hits a week",
+        details: "A landing page for store chain Deal Buster in Southern California. Currently, the site gets roughly 2000 hits a week.",
         summary: ["Made with React", "News Ticker", "Smooth Layout"],
         github: "https://github.com/jpatterson933",
         url: "https://dealbuster.online",
@@ -24,13 +24,5 @@ export const CardDetails = [
         summary: ["Use in terminal", "Pre-formatted", "Pre-Built"],
         github: "https://github.com/jpatterson933/readme-generator",
         url: "https://github.com/jpatterson933/readme-generator",
-    },
-    // {
-    //     key: "13",
-    //     name: "Yewnity",
-    //     details: "A place to go and learn about others and events that you may want to get involved with",
-    //     summary: ["Live Feed", "Personal Profiles", "Full Stack MVC"],
-    //     github: "https://github.com/Sharon1106/Yewnity",
-    //     url: "https://intense-cove-54104.herokuapp.com/",
-    // }
+    }
 ]
