@@ -3,11 +3,11 @@
 export const CardDetails = [
     {
         id: "0",
-        name: "9 to 5 Planner",
-        details: "Plan your day from 9 to 5",
-        summary: ["Quickly Save Notes", "Color Coded time of day", "Delete individual or all notes"],
-        github: "https://github.com/jpatterson933/calender-application",
-        url: "https://jpatterson933.github.io/calender-application/",
+        name: "Deal Buster",
+        details: "Brick and Mortar Landing Page",
+        summary: ["Find store prices for the day", "View the news ticker", "See the deal of the week"],
+        github: "https://github.com/jpatterson933",
+        url: "https://dealbuster.online",
     },
     {
         id: "1",

@@ -9,10 +9,10 @@ export const Websites = (props) => {
     const [sites, setSites] = useState(
         {
             title: "Deal Buster",
-            link: "https://www.bustindeals.com",
+            link: "https://dealbuster.online",
             id: 1,
             key: 1,
-            details: "Single page website that display information and links to social media handles",
+            details: "Single page website that display information about brick and mortar retail locations",
             
         }
     )

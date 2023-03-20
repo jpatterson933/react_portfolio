@@ -6,7 +6,7 @@ import profilePhoto from '../assets/profile_photo.jpg';
 // Components
 import { LanguageSlider } from '../components/LanguageSlider';
 import { ListItem } from '../components/List/ListItem';
-import { Button } from '../components/Button/Button';
+import { Button } from '../components/Button';
 import { Link } from '../components/Link';
 import { Card } from '../components/Card';
 import { LoadingElement } from '../components/Loading';
