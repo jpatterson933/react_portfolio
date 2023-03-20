@@ -1,7 +1,22 @@
+/* main loading box  */
 .box {
     position: absolute;
     width: 50px;
     height: 50px;
+    background-color: white;
+    border-radius: 2px;
+    animation-name: turn;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/* This is the box on the upper right of the page  */
+.box-two {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 16px;
     background-color: white;
     border-radius: 2px;
     animation-name: turn;
@@ -16,7 +31,6 @@
     height: 20px;
     background-color: rgba(179, 213, 255, 1);
     margin: 14.5px;
-
 }
 
 @keyframes turn {
