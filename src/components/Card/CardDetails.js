@@ -24,5 +24,13 @@ export const CardDetails = [
         summary: ["Use in terminal", "Pre-formatted", "Pre-Built"],
         github: "https://github.com/jpatterson933/readme-generator",
         url: "https://github.com/jpatterson933/readme-generator",
+    },
+    {
+        key: "13",
+        name: "The Rejection Chronicles",
+        details: "Track my applications for employment in the tech industry. Makes it easier when using different platforms.",
+        summary: ["Mobile friendly", "CSS Animations", "Canvas API"],
+        github: "https://github.com/jpatterson933/job-search-chronicles",
+        url: "https://gleaming-custard-25907c.netlify.app/",
     }
 ]

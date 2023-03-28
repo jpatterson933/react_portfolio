@@ -1,6 +1,6 @@
 import React from 'react';
 // pre-built components
-import { ListItem } from '../List';
+import { ListItem, UnorderedList } from '../List';
 import { Link } from '../Link';
 import { Header, HeaderThree } from '../Headers';
 // details for Card component
@@ -17,11 +17,11 @@ export const Card = () => {
                     <HeaderThree className="card-title">{card.name}</HeaderThree>
                     <p className="card-text">{card.details}</p>
                 </Header>
-                <ul className="list-group list-group-flush cards-list">
+                <UnorderedList className="list-group list-group-flush cards-list">
                     {card.summary.map((details) => {
                         return <ListItem className="list-group-item" key={details}>{details}</ListItem>
                     })}
-                </ul>
+                </UnorderedList>
                 <nav className="col">
                     <Link className={cardLinkClasses} href={card.github}>Github Repository</Link>
                     <Link className={cardLinkClasses} href={card.url}>Live Web Application</Link>

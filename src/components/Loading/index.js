@@ -5,9 +5,7 @@ import './index.css';
 export const LoadingElement = (props) => {
     return (
         <div {...props}>
-            <div id="innerbox">
-            </div>
-
+            <div id="innerbox"></div>
         </div>
     )
 }

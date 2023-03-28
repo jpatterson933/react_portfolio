@@ -1,5 +1,7 @@
 
 
+
+
 #nav {
     justify-content: center;
 }
@@ -7,12 +9,13 @@
 
 
 /* styling of jumbotron */
-.jumbotron {
+/* .jumbotron {
     margin: 0 1em;
     padding: 0;
-    background-color: rgba(179, 213, 255, 1);
+    background-color: black;
+
     
-}
+} */
 /* profile photo styling to keep it small */
 .profile-photo {
     border-radius: 100%;

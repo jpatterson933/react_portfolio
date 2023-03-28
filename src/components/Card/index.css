@@ -1,9 +1,8 @@
 
-
 /*-----------------------------------------cards styling------------------------------------------*/
 .card {
-    background-color: rgba(179, 213, 255, .5);
-    margin: 12px auto;
+    background-color: rgba(0, 101, 223, 0.5);
+    margin-top: 8px;
 }
 .card-title {
     text-align: center;
