@@ -1,5 +1,22 @@
 #nav {
-    height: 2em;
-    margin: 8px;
-    background-color: #d9eaff;
+    margin: 29px;
+    background-color: rgba(0, 101, 223, 0.5);
+    border-radius: 12px;
+    padding: 4px;
+}
+
+#name-title {
+    background: rgba(255, 255, 255, 0.5);
+    width: fit-content;
+    margin: 12px auto 4px auto;
+    padding: 4px 16px;
+    border-radius: 12px 0 12px 0;
+}
+
+/* font-size: 40px; */
+
+@media only screen and (max-width: 840px) {
+    #name-title {
+        font-size: 40px;
+    }
 }
