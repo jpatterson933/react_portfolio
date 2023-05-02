@@ -32,5 +32,13 @@ export const CardDetails = [
         summary: ["Mobile friendly", "CSS Animations", "Canvas API"],
         github: "https://github.com/jpatterson933/job-search-chronicles",
         url: "https://gleaming-custard-25907c.netlify.app/",
+    },
+    {
+        key: "14",
+        name: "Onyx Salamander Blog",
+        details: "A Blog I made for hack weekly group.",
+        summary: ["Built in a week", "Full Stack", "Team Development"],
+        github: "https://github.com/Hack-Weekly/onyx-sal-blog",
+        url: "https://github.com/Hack-Weekly/onyx-sal-blog"
     }
 ]
