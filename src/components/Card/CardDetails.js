@@ -27,11 +27,11 @@ export const CardDetails = [
     },
     {
         key: "13",
-        name: "The Rejection Chronicles",
-        details: "Track my applications for employment in the tech industry. Makes it easier when using different platforms.",
-        summary: ["Mobile friendly", "CSS Animations", "Canvas API"],
-        github: "https://github.com/jpatterson933/job-search-chronicles",
-        url: "https://gleaming-custard-25907c.netlify.app/",
+        name: "Stats on Github",
+        details: "Look at my public repos and see which languages I code in.",
+        summary: ["Mobile friendly", "CSS Animations", "Webpack"],
+        github: "https://github.com/jpatterson933/Stats-On-Github",
+        url: "https://deluxe-phoenix-6759a6.netlify.app/",
     },
     {
         key: "14",
