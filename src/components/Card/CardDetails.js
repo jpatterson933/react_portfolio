@@ -35,10 +35,10 @@ export const CardDetails = [
     },
     {
         key: "14",
-        name: "Onyx Salamander Blog",
-        details: "A Blog I made for hack weekly group.",
-        summary: ["Built in a week", "Full Stack", "Team Development"],
-        github: "https://github.com/Hack-Weekly/onyx-sal-blog",
-        url: "https://github.com/Hack-Weekly/onyx-sal-blog"
+        name: "Employee Office Generator",
+        details: "Terminal package to create and manage employees.",
+        summary: ["Modularized", "Test Driven", "mysql and inquirer"],
+        github: "https://github.com/jpatterson933/employee-tracker-version-2.0",
+        url: "https://github.com/jpatterson933/employee-tracker-version-2.0"
     }
 ]
